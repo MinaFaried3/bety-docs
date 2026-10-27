@@ -1,0 +1,104 @@
+{
+  "description": "User-provided Tablya screenshots; exact reference copies; may contain private account/address details; do not publish without redaction and permission.",
+  "copied_on": "2026-10-27",
+  "files": [
+    {
+      "id": "T01",
+      "file": "IMG_3577.PNG",
+      "path": "references/tablya/screenshots/IMG_3577.PNG",
+      "sha256": "2b7f9a9419f44c0d985389f06e9f9750f572aba3689e70e2e87f2613c9273aa7",
+      "bytes": 3422339
+    },
+    {
+      "id": "T02",
+      "file": "IMG_3578.PNG",
+      "path": "references/tablya/screenshots/IMG_3578.PNG",
+      "sha256": "ae2b992f47b51687a9ff375cb4b76f1abc8f120ed4f170369604ce8ea121459e",
+      "bytes": 671664
+    },
+    {
+      "id": "T03",
+      "file": "IMG_3579.PNG",
+      "path": "references/tablya/screenshots/IMG_3579.PNG",
+      "sha256": "e4507e213796d946fc9619f15fffc1994f6f769514433ba2ce36808507700e13",
+      "bytes": 3848697
+    },
+    {
+      "id": "T04",
+      "file": "IMG_3580.PNG",
+      "path": "references/tablya/screenshots/IMG_3580.PNG",
+      "sha256": "54ffd0f100f92a7fcfb66d9713f2aaf33cdb42e0dbf84f91bae238f38c769719",
+      "bytes": 861548
+    },
+    {
+      "id": "T05",
+      "file": "IMG_3581.PNG",
+      "path": "references/tablya/screenshots/IMG_3581.PNG",
+      "sha256": "ff06c6797ed8c1dd69891cc8272e94dd93b13d5cd79c67f4dc5df55e0045ff86",
+      "bytes": 1226905
+    },
+    {
+      "id": "T06",
+      "file": "IMG_3582.PNG",
+      "path": "references/tablya/screenshots/IMG_3582.PNG",
+      "sha256": "ad3ed9b922fad71a1e68f31419eef69c6bfac6ba926c6483b5acbf64766f13df",
+      "bytes": 1659258
+    },
+    {
+      "id": "T07",
+      "file": "IMG_3583.PNG",
+      "path": "references/tablya/screenshots/IMG_3583.PNG",
+      "sha256": "76c15a678ca3afa1e43b7cbeafdbbe93586c96a5e70a7df21ba147e87eed0a42",
+      "bytes": 1019921
+    },
+    {
+      "id": "T08",
+      "file": "IMG_3584.PNG",
+      "path": "references/tablya/screenshots/IMG_3584.PNG",
+      "sha256": "8e76e8270e65aad96031334d1e6187df96603bac6662515f8e7c8f788eecd555",
+      "bytes": 4367986
+    },
+    {
+      "id": "T09",
+      "file": "IMG_3585.PNG",
+      "path": "references/tablya/screenshots/IMG_3585.PNG",
+      "sha256": "07f69c42fd8c1b21fe2dc7c32cc2d57ce1aa74e38f4a8740e72dc71a68e94dda",
+      "bytes": 1223584
+    },
+    {
+      "id": "T10",
+      "file": "IMG_3586.PNG",
+      "path": "references/tablya/screenshots/IMG_3586.PNG",
+      "sha256": "024460255ebdf9e130aecca4895a8550fd9690cb1969a003b4afbef0cb66be6b",
+      "bytes": 377003
+    },
+    {
+      "id": "T11",
+      "file": "IMG_3587.PNG",
+      "path": "references/tablya/screenshots/IMG_3587.PNG",
+      "sha256": "65a870d5be688359b394a9720998905f3d5d6929de6a1c95874e997fce5a7781",
+      "bytes": 4636723
+    },
+    {
+      "id": "T12",
+      "file": "IMG_3588.PNG",
+      "path": "references/tablya/screenshots/IMG_3588.PNG",
+      "sha256": "4ae30961e67c2aead81ecc3db0cd646242f95b801ecde1e93efc41b7da7f3f54",
+      "bytes": 3926799
+    },
+    {
+      "id": "T13",
+      "file": "IMG_3589.PNG",
+      "path": "references/tablya/screenshots/IMG_3589.PNG",
+      "sha256": "220bb32e62f65f2ad2a3c162ed55949c94cecd4c58758bcb5dceb62d4c4cc916",
+      "bytes": 331919
+    },
+    {
+      "id": "T14",
+      "file": "IMG_3590.PNG",
+      "path": "references/tablya/screenshots/IMG_3590.PNG",
+      "sha256": "3312755518f61b53b544af527b318a19ebf0869f33b2d32aa7402f6f7d7c4043",
+      "bytes": 173130
+    }
+  ]
+}
