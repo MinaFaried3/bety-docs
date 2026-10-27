@@ -1,0 +1,21 @@
+---
+description: Creates consistent, implementation-ready backend task specifications and saves only explicitly approved tasks.
+globs: tasks/backend/**/*.md
+alwaysApply: false
+---
+
+# Backend Approved Task Rule
+
+- Draft backend tasks as senior, implementation-ready specifications.
+- Save a task under `tasks/backend/` only after the user explicitly approves it.
+- Use lowercase kebab-case filenames ending in `.md`.
+- Mark saved tasks with `Status: Approved` and the approval date.
+- Include: objective, endpoint, contract, business rules, scenarios, error behavior, and acceptance criteria.
+- Every response example must follow `[base_response.md](../../base_response.md)` with `meta`, `data`, `cache`, and `error`.
+- Use `Accept-Language: en-US | ar-SA`; return one localized display value, never parallel `*En` and `*Ar` fields.
+- Keep stable machine-readable status and reason codes separate from localized display text.
+- Cover positive, blocking, mixed-state, empty, authorization, validation, concurrency, and idempotency scenarios when relevant.
+- For multi-entity rules, identify each affected entity and explain whether it blocks the operation.
+- Do not invent fields rejected by the user or expand an approved task without new approval.
+- Use relative Markdown links only.
+- Updating a task file does not update live architecture/API documents. Apply the repository documentation-sync rules separately when implementation specifications are promoted.

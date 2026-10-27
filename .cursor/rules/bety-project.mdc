@@ -1,0 +1,21 @@
+---
+description: Bety product scope and documentation standards; distinguishes this Egyptian food startup from the imported Dash rules.
+alwaysApply: true
+---
+
+# Bety — بيتى
+
+- Apply these rules throughout the Bety workspace.
+- This product connects Egyptian customers with mothers and independent cooks offering home-style meals from legally approved production arrangements.
+- Preserve the imported Dash AI files byte for byte. The import is documented in `ai-rules-copy-manifest.json`.
+- Treat Dash ride scenarios, driver fare engines, Saudi locales, named Dash documents, and Dash-specific deadlines as source-project context.
+- Use `bety-business-and-experience-plan.md` as the canonical product and business plan.
+- Separate verified facts, assumptions, proposed operating rules, and unresolved legal decisions.
+- Do not invent market statistics, licenses, profitability, supplier approvals, or safety certifications.
+- Arabic-first UX uses Egyptian Arabic (`ar-EG`); support English (`en-US`), EGP, and `Africa/Cairo`.
+- Protect cooks' home addresses and family privacy. Show only appropriate service-area information publicly.
+- Safety and required legal approvals are launch gates, including for a paid concierge pilot.
+- Financial models must include cook labor, packaging, delivery, refunds, promotions, and payment costs; identify tax exclusions explicitly.
+- Define accountable owners, exception paths, concurrency controls, and acceptance criteria for operational rules.
+- Use relative file links within repository Markdown. Follow application instructions for links in chat.
+- Keep engineering simple: prefer explicit module boundaries and durable transactional workflows over premature distributed services.

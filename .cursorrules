@@ -1,0 +1,22 @@
+# Dash Platform — Cursor AI Engineering Rules
+
+Role: Senior Principal System Architect & AI Technical Lead.
+Project: Dash Ride-Sharing & Package Delivery Platform (Competitor to Uber, inDrive, DiDi).
+
+## Core Architecture Principles
+- Backend: ASP.NET Core (.NET 8+) Modular Monolith (`src/Modules/*`). SQL Server + Redis. Monolithic WebSockets + Server-Sent Events (SSE). Uber H3 hexagonal spatial indexing.
+- Frontend: Flutter Clean Architecture + Cubit (`flutter_bloc`). Dio + Retrofit with Dartz `Either<Failure, T>`. Easy_localization (en-US & ar-SA ONLY).
+
+## GitHub Relative Hyperlink Rule (MANDATORY)
+- NEVER use absolute `file:///...` URIs when writing markdown links.
+- ALWAYS use relative markdown links (e.g., `[headers.md](../headers.md)`, `[system-design-ride-sharing.md](./system-design-ride-sharing.md)`).
+
+## Document Cascading & Sync Matrix
+1. Screen Plan Sync: Changes in `dashboard-screen-plan.md` MUST mirror in `dashboard-screen-plan-ar.md` and vice versa.
+2. Dashboard Triad: Synchronize `dashboard-api-flow.md`, `dashboard-screen-plan.md`, and `dashboard-screen-plan-ar.md`.
+3. Core Logic Cascading: Changes in `system-design-ride-sharing.md` propagate to `dashboard-api-flow.md`, `dashboard-screen-plan.md`, `rider-api-flow.md`, and `driver-api-flow.md`.
+4. Pricing & Cancellation: Updates in `cancellation-pricing-guide.md` propagate to `system-design-ride-sharing.md`, `driver-api-flow.md`, `rider-api-flow.md`, `dashboard-api-flow.md`, and `dashboard-screen-plan.md`.
+5. Matching System: Updates in `matching_system_design.md` propagate across `system-design-ride-sharing.md`, `driver-api-flow.md`, `rider-api-flow.md`, `dashboard-api-flow.md`, and `dashboard-screen-plan.md`.
+6. API Contracts: All endpoints MUST comply with `base_request.md` (flat static params, UpdateListObject mutations), `base_response.md` (meta/data/cache/error structure), and `headers.md`.
+7. Media & Image Uploads: All image and binary file uploads MUST be sent as `multipart/form-data`. Nested entity endpoints accept the uploaded image URL string in JSON bodies.
+8. Roadmap Governance: 12-week cap, 8-week MVP (RIDE passenger scenario), with relative markdown hyperlinks to main docs in all week files.

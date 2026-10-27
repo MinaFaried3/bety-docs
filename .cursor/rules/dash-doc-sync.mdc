@@ -1,0 +1,35 @@
+---
+description: Dash Architecture Rules for multi-document synchronization, API contract validation, GitHub relative hyperlinks, and 12-week roadmap governance.
+globs: **/*.md
+---
+# Dash Architecture & Multi-Document Sync Rules (Cursor IDE)
+
+When editing or updating documentation, APIs, or architectural specifications in the Dash repository, strictly enforce the following rules:
+
+1. **GitHub & Portable Relative Hyperlinks Rule (MANDATORY):**
+   - **NEVER** use `file:///...` URIs when writing markdown links.
+   - **ALWAYS** use relative paths (e.g. `[headers.md](../headers.md)`, `[system-design-ride-sharing.md](./system-design-ride-sharing.md)`).
+
+2. **Dashboard Translation Mirroring:**
+   - Any change to [dashboard-screen-plan.md](./dashboard-screen-plan.md) must be mirrored in [dashboard-screen-plan-ar.md](./dashboard-screen-plan-ar.md) and vice versa.
+
+3. **Dashboard Triad Sync:**
+   - Any change in [dashboard-api-flow.md](./dashboard-api-flow.md), [dashboard-screen-plan.md](./dashboard-screen-plan.md), or [dashboard-screen-plan-ar.md](./dashboard-screen-plan-ar.md) must be synchronized across all three files.
+
+4. **Core Architecture Propagation:**
+   - Changes to core functionality in [system-design-ride-sharing.md](./system-design-ride-sharing.md) must propagate to [dashboard-api-flow.md](./dashboard-api-flow.md), [dashboard-screen-plan.md](./dashboard-screen-plan.md), [rider-api-flow.md](./rider-api-flow.md), and [driver-api-flow.md](./driver-api-flow.md).
+
+5. **Pricing & Cancellation Updates:**
+   - Changes to dynamic surge, pricing models, commission rates, or cancellation penalties must update [cancellation-pricing-guide.md](./cancellation-pricing-guide.md) and refactor [system-design-ride-sharing.md](./system-design-ride-sharing.md), [driver-api-flow.md](./driver-api-flow.md), [rider-api-flow.md](./rider-api-flow.md), [dashboard-api-flow.md](./dashboard-api-flow.md), and [dashboard-screen-plan.md](./dashboard-screen-plan.md).
+
+6. **Matching System Synchronization:**
+   - Updates to dispatch logic, H3 spatial indexing, or offer timeouts must update [matching_system_design.md](./matching_system_design.md) and propagate across [system-design-ride-sharing.md](./system-design-ride-sharing.md), [driver-api-flow.md](./driver-api-flow.md), [rider-api-flow.md](./rider-api-flow.md), [dashboard-api-flow.md](./dashboard-api-flow.md), and [dashboard-screen-plan.md](./dashboard-screen-plan.md).
+
+7. **API Standards Compliance:**
+   - All added or modified endpoints must follow [base_request.md](./base_request.md) (flat static query params for GET, `UpdateListObject` for mutations), [base_response.md](./base_response.md) (meta/data/cache/error payload), and [headers.md](./headers.md).
+
+8. **Media & Image Uploads (multipart/form-data):**
+   - Any image or binary asset upload MUST be handled using `multipart/form-data`. Endpoints creating or updating entities must use the resulting URL/key string in JSON request bodies.
+
+9. **12-Week Roadmap & 8-Week MVP:**
+   - The implementation plan in `implementation-plan/` is capped at 12 weeks with an 8-week MVP milestone (Passenger Transport RIDE base scenarios). Every week file must contain explicit relative markdown hyperlinks to the main documentation files.
