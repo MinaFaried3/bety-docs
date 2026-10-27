@@ -4,6 +4,18 @@ An Egyptian food startup supporting mothers and independent cooks through a reli
 
 Start with the [business and complete app experience plan](./bety-business-and-experience-plan.md). It covers the business model, customer and cook journeys, operations, restrictions, food safety, delivery, payments, economics, architecture, deployment, and a gated launch roadmap.
 
+## Competitor-informed recreation
+
+The original plan remains unchanged. The new proposal develops a familiar Talabat/Breadfast-style shopping journey for Bety's home-cook marketplace, using the 14 provided Tablya screenshots as direct interface evidence.
+
+- [Bety competitor-informed business and experience blueprint](./bety-competitor-informed-plan.md): 30 chapters, 28 flows, screen definitions, operating rules, competitive advantages, economics, architecture, and rollout.
+- [Flow and edge-case catalog](./bety-flow-edge-case-catalog.md): 140 concrete requirements covering customer, cook, courier, finance, safety, and admin behavior, with owners and release priorities.
+- [Competitor experience study](./research/competitor-experience-study.md): first-party sources, a separate review of every screenshot, adoption decisions, and explicit evidence limits.
+- [Structured scenario matrix](./research/flow-edge-case-matrix.json): the same requirements in machine-readable form; validation has not yet been executed against a built application.
+- [Original-plan fingerprint](./research/preserved-plan-fingerprint.json): the SHA-256 and size used to verify preservation of the original document.
+
+The new blueprint is a separate proposal. It distinguishes directly observed competitor controls, publicly documented capabilities, and original Bety requirements. Later modes such as express delivery, approved pickup, finite meal plans, catering, and finish-at-home foods remain gated.
+
 ## AI rules and skills import
 
 On 27 October 2026, 12 AI guidance files, including four skills, were copied exactly from `../../dash docs`. The requested `../../dash_docs` path did not exist; the matching source folder uses a space.
