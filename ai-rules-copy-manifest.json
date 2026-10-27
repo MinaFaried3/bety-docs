@@ -1,0 +1,55 @@
+{
+  "source": "/Volumes/SSD/dash docs",
+  "copied_on": "2026-10-27",
+  "mode": "exact-copy",
+  "files": [
+    {
+      "path": ".cursorrules",
+      "sha256": "b4d4e77a392043724f44190df89237c81167e27163450de0bcb21cad8cb7ffa0"
+    },
+    {
+      "path": "GEMINI.md",
+      "sha256": "8a349dcbe891b54ec1a6140ca683f3aa42af184ab068b816d5c416b8064960db"
+    },
+    {
+      "path": ".idea/rules.md",
+      "sha256": "69caabf05a3b0e9d4228aa897b1bf7bbd3dc6956d2c016dddb9d4e5736c02019"
+    },
+    {
+      "path": ".opencode/AGENTS.md",
+      "sha256": "436ac2e451b4c148457970eb08bb0c573872abae856081d74433439f0b980db0"
+    },
+    {
+      "path": ".opencode/rules.md",
+      "sha256": "084bdc81ac0dacab443c8a6ca45b91b1a32047c980ae5aac891d8627ea618fae"
+    },
+    {
+      "path": ".agents/AGENTS.md",
+      "sha256": "e3c03ca087949808bd939d479c8db48965bba559ff55010a1a145fdbc481fca9"
+    },
+    {
+      "path": ".agents/skills/backend-task-authoring/SKILL.md",
+      "sha256": "ae18f87ff9d3a4ca849cfd15fe38382f87b83c41432534d6bbbdfd2a9941bb90"
+    },
+    {
+      "path": ".agents/skills/dash-doc-sync/SKILL.md",
+      "sha256": "26a96e864e9d87ea03898b89bba2158e338e187f0d937d2c08cee5c95b65a1c5"
+    },
+    {
+      "path": ".agents/skills/dash-roadmap-governance/SKILL.md",
+      "sha256": "a1304b738571ec0ca9000fb61e2b2b2d6f52ea179249653ba114afe38555472b"
+    },
+    {
+      "path": ".agents/skills/dash-system-architect/SKILL.md",
+      "sha256": "8cfabcc6d4803604fa59347c0847750a351bb2827ebd2325ccf904289ea5daa8"
+    },
+    {
+      "path": ".cursor/rules/backend-approved-tasks.mdc",
+      "sha256": "6a02a5147c1566d726f871ee34b53a3875f439de873f9551fda8957c6ff8b1e0"
+    },
+    {
+      "path": ".cursor/rules/dash-doc-sync.mdc",
+      "sha256": "c50b20f8da989edb86ae3addea872c97c94b66993b8b5afb63bb3a1dfbb2d856"
+    }
+  ]
+}
